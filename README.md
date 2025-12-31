@@ -46,4 +46,4 @@ Follow [Qraftr Libs](https://qraftr.com/libs) for more tiny dev-focused utilitie
 
 ## License
 
-MIT
+MIT. See `LICENSE`.
