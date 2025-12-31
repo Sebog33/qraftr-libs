@@ -77,7 +77,7 @@ const buildLooseJson = (seed: number) => {
         /,\s*([A-Za-z_][A-Za-z0-9_]*|'[^']*'|"[^"]*")/,
         " $1",
       ),
-    (value) => value.replace(/([{\[])\s*/, "$1 /* comment */ "),
+    (value) => value.replace(/([[]{])\s*/, "$1 /* comment */ "),
     (value) => value.replace(/([}\]])$/, " // end\n$1"),
     (value) => value.replace(/([}\]])$/, ",$1"),
     (value) => value.replace(/([}\]])$/, ""),
