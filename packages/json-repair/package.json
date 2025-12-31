@@ -20,8 +20,8 @@
     "release:dry-run": "npm publish --access public --dry-run"
   },
   "files": [
-    "dist/index.js",
-    "dist/index.d.ts",
+    "dist/*.js",
+    "dist/*.d.ts",
     "README.md"
   ],
   "keywords": [
