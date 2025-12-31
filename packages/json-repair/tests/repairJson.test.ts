@@ -312,4 +312,24 @@ describe("repairJson", () => {
     const result = repairJson(input);
     expect(result).toBe("[1,2,3,4]");
   });
+
+  it("extracts and repairs JSON from markdown code block with surrounding text and trailing comma", () => {
+    const input = `Here's the JSON you requested:
+
+\`\`\`json
+{
+  "status": "success",
+  "data": {
+    "users": [
+      {"id": 1, "name": "Bob"},
+      {"id": 2, "name": "Carol"},
+    ]
+  }
+}
+\`\`\`
+
+Let me know if you need anything else!`;
+    const result = repairJson(input, { extractJson: true });
+    expect(result).toBe('{"status":"success","data":{"users":[{"id":1,"name":"Bob"},{"id":2,"name":"Carol"}]}}');
+  });
 });

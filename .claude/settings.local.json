@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm pack:*)",
+      "Bash(pnpm --filter @qraftr/json-repair test)",
+      "Bash(pnpm build:*)"
+    ]
+  }
+}

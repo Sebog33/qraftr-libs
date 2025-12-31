@@ -4,11 +4,15 @@ import { JsonRepairTokenizer, TokenType } from "./tokenizer";
  * Attempts to extract a valid JSON block (between braces or brackets) from a string.
  */
 export function extractJsonFromText(input: string): string {
-  const cleaned = input
-    .trim()
-    .replace(/^```json\s*/i, "")
-    .replace(/```$/, "")
-    .trim();
+  // First, try to extract content from markdown code blocks anywhere in the text
+  const markdownMatch = input.match(/```(?:json)?\s*([\s\S]*?)```/i);
+  const cleaned = markdownMatch
+    ? markdownMatch[1].trim()
+    : input
+        .trim()
+        .replace(/^```json\s*/i, "")
+        .replace(/```$/, "")
+        .trim();
 
   const tokenizer = new JsonRepairTokenizer(cleaned);
   const stack: Array<"brace" | "bracket"> = [];
