@@ -1,0 +1,47 @@
+{
+  "name": "@qraftr/json-diff",
+  "version": "0.1.0",
+  "description": "A lightweight utility to compare, intersect or subtract JSON objects deeply.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "dev": "vitest watch",
+    "lint": "eslint .",
+    "check-types": "tsc --noEmit -p tsconfig.json",
+    "release": "npm publish --access public",
+    "release:dry-run": "npm publish --access public --dry-run"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts",
+    "README.md"
+  ],
+  "keywords": [
+    "qraftr",
+    "json",
+    "diff",
+    "compare",
+    "intersect",
+    "subtract",
+    "objects",
+    "deep"
+  ],
+  "author": "Sebastien Carriot <sebastien@digiteld.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^3.1.1",
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0"
+  }
+}
+
+
+

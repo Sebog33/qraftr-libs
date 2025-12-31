@@ -1,0 +1,73 @@
+{
+  "name": "@qraftr/json-repair",
+  "version": "0.1.22",
+  "description": "A robust utility to repair JSON strings - fix malformed or broken JSON, especially from LLM output like ChatGPT.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "dev": "vitest watch",
+    "lint": "eslint .",
+    "check-types": "tsc --noEmit -p tsconfig.json",
+    "release": "npm publish --access public",
+    "release:dry-run": "npm publish --access public --dry-run"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts",
+    "README.md"
+  ],
+  "keywords": [
+    "qraftr",
+    "json",
+    "repair",
+    "json repair",
+    "repair json",
+    "fix json",
+    "json fixer",
+    "fix broken json",
+    "fix malformed json",
+    "llm json",
+    "validate",
+    "check",
+    "fix",
+    "parser",
+    "malformed",
+    "invalid",
+    "broken",
+    "llm",
+    "ia",
+    "ai",
+    "chatgpt",
+    "gpt",
+    "openai",
+    "anthropic",
+    "claude",
+    "llama",
+    "deepseek",
+    "mistral",
+    "gemini",
+    "groq",
+    "qwen",
+    "grok",
+    "xai",
+    "o1",
+    "o3"
+  ],
+  "author": "Sebastien Carriot <sebastien@digiteld.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^3.1.1",
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0"
+  }
+}
+
+

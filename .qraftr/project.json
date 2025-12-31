@@ -1,0 +1,596 @@
+{
+  "path": "\\\\?\\D:\\Dev\\toolsy\\toolsy-npm\\qraftr-libs",
+  "totalFiles": 65,
+  "codeFiles": 30,
+  "contentFiles": 31,
+  "codeLines": 2321,
+  "contentLines": 5382,
+  "lastScanAt": "2025-12-31T14:42:17.706822500+00:00",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sizeBytes": 1975,
+      "kind": "content",
+      "lineCount": 40,
+      "checksum": "sha256:798df79adb2ed3f59e8270bbb8f983f45b695686e304e2ad6f13caec381b4260",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "CLAUDE.md",
+      "sizeBytes": 1962,
+      "kind": "content",
+      "lineCount": 63,
+      "checksum": "sha256:60c71fe8e65ee17ad1d7011442fcd6cb60f7bfd3fde6716a90005a5121df377b",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "README.md",
+      "sizeBytes": 1724,
+      "kind": "content",
+      "lineCount": 49,
+      "checksum": "sha256:6b4c3bbd75190984eb97f6f76385004fb595e3384bc402ef2d3b98b20581d956",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "apps\\docs\\next-env.d.ts",
+      "sizeBytes": 211,
+      "kind": "code",
+      "lineCount": 5,
+      "checksum": "sha256:f2b3bca04d1bfe583daae1e1f798c92ec24bb6693bd88d0a09ba6802dee362a8",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "apps\\web\\next-env.d.ts",
+      "sizeBytes": 211,
+      "kind": "code",
+      "lineCount": 5,
+      "checksum": "sha256:f2b3bca04d1bfe583daae1e1f798c92ec24bb6693bd88d0a09ba6802dee362a8",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "eslint.config.mjs",
+      "sizeBytes": 87,
+      "kind": "code",
+      "lineCount": 3,
+      "checksum": "sha256:7f71da86458318689b0f245062cd7fe20d84bed30c5c87f7b87f9af8ad1285c6",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "package.json",
+      "sizeBytes": 569,
+      "kind": "content",
+      "lineCount": 26,
+      "checksum": "sha256:69d2a2121395f9a30007fcd1e0e1ce2f3d0cb539c8e162297196ba850b4a8f7e",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\eslint-config\\README.md",
+      "sizeBytes": 72,
+      "kind": "content",
+      "lineCount": 3,
+      "checksum": "sha256:79b10d5a153da58a8109399f374356e1d07f8b9cb95c49fed19c39377186aa13",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\eslint-config\\base.js",
+      "sizeBytes": 1037,
+      "kind": "code",
+      "lineCount": 53,
+      "checksum": "sha256:b244510b555a3caa9938a9057487ec927acc041e03ebd0663305789fa81d2a01",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\eslint-config\\next.js",
+      "sizeBytes": 1313,
+      "kind": "code",
+      "lineCount": 49,
+      "checksum": "sha256:9b657ec5bc70f06d1c454bf57641defc1b8f76f296c1106e23f9e512234b50a4",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\eslint-config\\package.json",
+      "sizeBytes": 634,
+      "kind": "content",
+      "lineCount": 24,
+      "checksum": "sha256:d6460265f79a98ee8f6b66d33caee251bf8cecea62a9d39ee7358a3145fd2c82",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\eslint-config\\react-internal.js",
+      "sizeBytes": 1090,
+      "kind": "code",
+      "lineCount": 39,
+      "checksum": "sha256:6bbfc1ffdfd77eec61c4e2f921ab600e4fd56242c24ddf6cf8504c8bb1237831",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\image-convert\\README.md",
+      "sizeBytes": 3482,
+      "kind": "content",
+      "lineCount": 146,
+      "checksum": "sha256:10ee7f0028e2d2ed6c61180b8d1079316e0d537666c20816a4b8e510cf4a0743",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\image-convert\\github.ico",
+      "sizeBytes": 443390,
+      "kind": "binary",
+      "lineCount": null,
+      "checksum": "sha256:68195b060115f0ea14fba5bf286882f7ae4311d88c4e94515bcbff6b1a0c14a4",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\image-convert\\github2.ico",
+      "sizeBytes": 14510,
+      "kind": "binary",
+      "lineCount": null,
+      "checksum": "sha256:f6834d0f21ebbe40fc7d87995eb5cc0f7fc9665a10eb780d16e205c3d9a0eb2c",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\image-convert\\package.json",
+      "sizeBytes": 1145,
+      "kind": "content",
+      "lineCount": 56,
+      "checksum": "sha256:01aed8bdf6ab04662fc3e296f6f122900ab3e85bded73e0f7b4a50030ec10fea",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\image-convert\\src\\convert-sharp.ts",
+      "sizeBytes": 1414,
+      "kind": "code",
+      "lineCount": 64,
+      "checksum": "sha256:444844ab5a72e5a3198bbc8c9e074dc4beabc9d07c9a8672cb6e6e9a1b2a42af",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\image-convert\\src\\index.ts",
+      "sizeBytes": 498,
+      "kind": "code",
+      "lineCount": 16,
+      "checksum": "sha256:83073f7770e643cbb9ba85ddb4f5279448152ac85e01dc939db1d404810f8635",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\image-convert\\tests\\connu.js",
+      "sizeBytes": 556,
+      "kind": "code",
+      "lineCount": 15,
+      "checksum": "sha256:eeeef43b60ace901117b96b92220c6a3534fb2fb12fe11f04831617a3c170e75",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\image-convert\\tests\\fn.js",
+      "sizeBytes": 696,
+      "kind": "code",
+      "lineCount": 26,
+      "checksum": "sha256:556585ac2d5c71eed12307faa82f1136f7bbc2f4d43cbcdb334578d0645b67fc",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\image-convert\\tests\\graftr.ico",
+      "sizeBytes": 29870,
+      "kind": "binary",
+      "lineCount": null,
+      "checksum": "sha256:531a0c6daba27e38d97af6e02da58b4f04c3c036389a43a90e4305000a94c2af",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\image-convert\\tests\\graftr.js",
+      "sizeBytes": 911,
+      "kind": "code",
+      "lineCount": 29,
+      "checksum": "sha256:0162e9a914321ff1e264ac513c94f5a436a5cb8b1efb76ab7b1822a5823b8044",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\image-convert\\tests\\graftr.png",
+      "sizeBytes": 986276,
+      "kind": "binary",
+      "lineCount": null,
+      "checksum": "sha256:376fe1078e8f7ae8382bd4c4db7ed1729c3ac125ea68068e41bfa723b8f3a797",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\image-convert\\tests\\png-to-ico.test.ts",
+      "sizeBytes": 3248,
+      "kind": "code",
+      "lineCount": 100,
+      "checksum": "sha256:c1e2d791a8f852af2c8a5f3c026f3fd6ccd738428bfa1f35cdb102570f28575d",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\image-convert\\tsconfig.json",
+      "sizeBytes": 223,
+      "kind": "content",
+      "lineCount": 12,
+      "checksum": "sha256:f281bddd2eeb47ab51080fff8e6f9a5ab4a5507ea5e67a6babe0c836391b2421",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\image-convert\\tsconfig.test.json",
+      "sizeBytes": 68,
+      "kind": "content",
+      "lineCount": 4,
+      "checksum": "sha256:bb8e84685619e98fa63dd44e4f9034e9e60bde47e6362097140321954b1a14da",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\image-convert\\vitest.config.ts",
+      "sizeBytes": 280,
+      "kind": "code",
+      "lineCount": 16,
+      "checksum": "sha256:e80d945853620c16f3bf40bc33921ed24118d472e1123c17ccc5d2fcaccf95be",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-diff\\README.md",
+      "sizeBytes": 2663,
+      "kind": "content",
+      "lineCount": 98,
+      "checksum": "sha256:3895474653ff58949546d4028f2060b0f0e2da3912cf9e69eb3675e2f9d67852",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-diff\\package.json",
+      "sizeBytes": 1034,
+      "kind": "content",
+      "lineCount": 47,
+      "checksum": "sha256:35488b489bce6d12d33f2fa6e81fffd51615b63d67597a95ffb169340e4ba1fe",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-diff\\src\\index.ts",
+      "sizeBytes": 3205,
+      "kind": "code",
+      "lineCount": 116,
+      "checksum": "sha256:553286e661b4b6c0658fcc63315c3cce8302e2b69218df3da6307a7ee9eaa67b",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-diff\\tests\\diff.test.ts",
+      "sizeBytes": 2131,
+      "kind": "code",
+      "lineCount": 72,
+      "checksum": "sha256:90332db77846954ac8797be9eb3bfed5601d04ff252b982877836bad09bcc683",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-diff\\tsconfig.json",
+      "sizeBytes": 220,
+      "kind": "content",
+      "lineCount": 12,
+      "checksum": "sha256:70e9a54be79af8039a160bbaeacea5f1f2a05da918aee1979f51429a216c9bd0",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-diff\\tsconfig.test.json",
+      "sizeBytes": 70,
+      "kind": "content",
+      "lineCount": 4,
+      "checksum": "sha256:7324a0e1cd0368dc8222d32ce82431041c754098324214f7dc902627974baa63",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-diff\\vitest.config.ts",
+      "sizeBytes": 221,
+      "kind": "code",
+      "lineCount": 13,
+      "checksum": "sha256:c332b609182c82ba70b3394bb68041c6a8379019eb9e22b1b833191d46b3b3ce",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-merge\\README.md",
+      "sizeBytes": 2687,
+      "kind": "content",
+      "lineCount": 68,
+      "checksum": "sha256:e4452f52c93ccf5459f71a37b5b596c77b63205eea00c2c7daf879085b842f3b",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-merge\\package.json",
+      "sizeBytes": 1038,
+      "kind": "content",
+      "lineCount": 46,
+      "checksum": "sha256:07720a337d67563b33e6aa44d7e56b1901c546a4cc823f74c218c68d2a0f10b5",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-merge\\src\\index.ts",
+      "sizeBytes": 2747,
+      "kind": "code",
+      "lineCount": 99,
+      "checksum": "sha256:d8d3f022b04aac25d5ad94ca5b0dad21ddf851c5e869b18899fbaf094e25df51",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-merge\\tests\\merge.test.ts",
+      "sizeBytes": 2670,
+      "kind": "code",
+      "lineCount": 83,
+      "checksum": "sha256:63f9bbf5dd05bc06b589d7b2131c036494b37c4b31d10b3a3f932b29d2a649d2",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-merge\\tsconfig.json",
+      "sizeBytes": 220,
+      "kind": "content",
+      "lineCount": 12,
+      "checksum": "sha256:70e9a54be79af8039a160bbaeacea5f1f2a05da918aee1979f51429a216c9bd0",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-merge\\tsconfig.test.json",
+      "sizeBytes": 70,
+      "kind": "content",
+      "lineCount": 4,
+      "checksum": "sha256:7324a0e1cd0368dc8222d32ce82431041c754098324214f7dc902627974baa63",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-merge\\vitest.config.ts",
+      "sizeBytes": 221,
+      "kind": "code",
+      "lineCount": 13,
+      "checksum": "sha256:c332b609182c82ba70b3394bb68041c6a8379019eb9e22b1b833191d46b3b3ce",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-repair\\README.md",
+      "sizeBytes": 3973,
+      "kind": "content",
+      "lineCount": 110,
+      "checksum": "sha256:e92983f77d6d41c9dccb7533066c4fcfbe8e22dbafecd5473032666de5a5120a",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-repair\\package.json",
+      "sizeBytes": 1489,
+      "kind": "content",
+      "lineCount": 73,
+      "checksum": "sha256:f4e03e0dd89be3f2dde65f905b271e47433be58cdefe8d741c0d7662bdd74f9b",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-repair\\src\\encode.ts",
+      "sizeBytes": 240,
+      "kind": "code",
+      "lineCount": 10,
+      "checksum": "sha256:d6567df84625a19f8b755d4e2d2ba8592e35798d7f4c4af3289c423f481dd548",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-repair\\src\\extract.ts",
+      "sizeBytes": 1649,
+      "kind": "code",
+      "lineCount": 61,
+      "checksum": "sha256:1b2633857578db3c51d1037b32424b725a2845c775b140c41a4aa504e07e7f39",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-repair\\src\\index.ts",
+      "sizeBytes": 4732,
+      "kind": "code",
+      "lineCount": 140,
+      "checksum": "sha256:864247c8ecf57afa12c978b0679efa7973e154858beda355aceaf2419b803b69",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-repair\\src\\repair.ts",
+      "sizeBytes": 4636,
+      "kind": "code",
+      "lineCount": 183,
+      "checksum": "sha256:e8b2714f062c071f0b8830189c25fc8a84458142d340bf2a3b74d02f202264af",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-repair\\src\\tokenizer.ts",
+      "sizeBytes": 9060,
+      "kind": "code",
+      "lineCount": 362,
+      "checksum": "sha256:3a53c7f76524ca8832e32df98e3209a1422c3c7a9c2815bb4b2bcec34bb2cbd0",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-repair\\tests\\repairJson.test.ts",
+      "sizeBytes": 10534,
+      "kind": "code",
+      "lineCount": 315,
+      "checksum": "sha256:fddd3ea8d55200696c87c33334a3c63c4400021f7a35c8bddfe06b8527a9feca",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-repair\\tsconfig.json",
+      "sizeBytes": 218,
+      "kind": "content",
+      "lineCount": 12,
+      "checksum": "sha256:0fb15c8126b8c8b3a4f58bd1dc4517d6b6dcbdf95076ebf7abfdb1248604979b",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-repair\\tsconfig.test.json",
+      "sizeBytes": 68,
+      "kind": "content",
+      "lineCount": 4,
+      "checksum": "sha256:bb8e84685619e98fa63dd44e4f9034e9e60bde47e6362097140321954b1a14da",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-repair\\vitest.config.ts",
+      "sizeBytes": 317,
+      "kind": "code",
+      "lineCount": 17,
+      "checksum": "sha256:97ca9c9cae948bdeb875d7d2e08622d225ae9db3fb9a38b8388d7cc843ef376a",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-schema-gen\\README.md",
+      "sizeBytes": 3170,
+      "kind": "content",
+      "lineCount": 142,
+      "checksum": "sha256:677c821faea33e864bea15d39a1887a37f4560937cc2f334d3a865e8c1569cd5",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-schema-gen\\package.json",
+      "sizeBytes": 1414,
+      "kind": "content",
+      "lineCount": 67,
+      "checksum": "sha256:7d837dc2e63dde091bf63850e77a450d132e194e832843e42e54508af46e656c",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-schema-gen\\src\\index.ts",
+      "sizeBytes": 4519,
+      "kind": "code",
+      "lineCount": 176,
+      "checksum": "sha256:1a2f04093fcf638ef170e878e1552bdbf4b371d60fa3091ae64ab1430a4cf2f9",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-schema-gen\\tests\\generateSchema.test.ts",
+      "sizeBytes": 5238,
+      "kind": "code",
+      "lineCount": 218,
+      "checksum": "sha256:c2748e2239a787e0f46ffda7c47ea39a4e28f18ec0c4f188282da027d90da3da",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-schema-gen\\tsconfig.json",
+      "sizeBytes": 218,
+      "kind": "content",
+      "lineCount": 12,
+      "checksum": "sha256:0fb15c8126b8c8b3a4f58bd1dc4517d6b6dcbdf95076ebf7abfdb1248604979b",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-schema-gen\\tsconfig.test.json",
+      "sizeBytes": 68,
+      "kind": "content",
+      "lineCount": 4,
+      "checksum": "sha256:bb8e84685619e98fa63dd44e4f9034e9e60bde47e6362097140321954b1a14da",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\json-schema-gen\\vitest.config.ts",
+      "sizeBytes": 280,
+      "kind": "code",
+      "lineCount": 16,
+      "checksum": "sha256:e80d945853620c16f3bf40bc33921ed24118d472e1123c17ccc5d2fcaccf95be",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\typescript-config\\base.json",
+      "sizeBytes": 300,
+      "kind": "content",
+      "lineCount": 13,
+      "checksum": "sha256:c7f31826cacd78f8dfce0b7248a6f0caa1d537f335283bdddd93e8a7dff15947",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "packages\\typescript-config\\package.json",
+      "sizeBytes": 150,
+      "kind": "content",
+      "lineCount": 9,
+      "checksum": "sha256:1b052630b59910c9273f185b3dff166efd6c7f00cca006f34d93e358912eaf4b",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "sizeBytes": 131710,
+      "kind": "content",
+      "lineCount": 4198,
+      "checksum": "sha256:a866354c8cd5f2f4081b9d4a92493df03f091db234ef22c9065d77ec8e114f3e",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "sizeBytes": 29,
+      "kind": "content",
+      "lineCount": 2,
+      "checksum": "sha256:cc6a8bc70d46daaacbe0957d5212a5b533a88ea8ba9acfb3279cd049f235d7ff",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "test.mjs",
+      "sizeBytes": 216,
+      "kind": "code",
+      "lineCount": 7,
+      "checksum": "sha256:43b11fcfa49b5c0e3378d39e37f88c87aec09434803411bffcd78662a7a44fc4",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    },
+    {
+      "path": "turbo.json",
+      "sizeBytes": 401,
+      "kind": "content",
+      "lineCount": 22,
+      "checksum": "sha256:80505423eb8a8f9edddb9460b81b9b046499d6512177d5d03109fd0fe8cc9c51",
+      "aiCriticalIssues": null,
+      "aiAnalyzedAt": null
+    }
+  ]
+}
